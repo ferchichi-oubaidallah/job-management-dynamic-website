@@ -1,0 +1,234 @@
+/*@import url('https://https://fonts.google.com/specimen/Poppins')*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    background:no-repeat;
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+}
+.container{
+    display: flex;
+  flex-direction: row; 
+  justify-content: space-around; 
+  align-items: center;
+  gap: 30px;
+}
+.container .red2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center;
+    gap: 20px;  
+}
+
+.card1{
+    width: 350px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    gap: 30px;
+    
+}
+.card2{
+    width: 760px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    
+    margin: 10px 15px;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+nav {
+    background-color: #333;
+    font-family: sans-serif;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav a {
+    color: #2fb92d;
+    display: block;
+    line-height: 50px;
+    padding: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 200px;
+  }
+  
+  nav ul ul a {
+    line-height: 40px;
+  }
+  
+  nav ul ul ul {
+    left: 100%;
+    top: 0;
+    position: absolute;
+  }
+  
+  nav ul li:first-child {
+    float: left;
+  }
+  
+  nav ul li:hover > a {
+    background-color: hsl(0, 9%, 91%);
+  }
+  
+  nav ul li:hover a:hover {
+    background-color: hsl(0, 9%, 91%);
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 9%, 91%);
+    border-radius: 0 0 4px 4px;
+    top: 100%;
+    right: 0;
+  }
+  
+  .dropdown-menu li {
+    display:block;
+    width: 200px;
+  }
+  
+  .dropdown-menu li a {
+    color:#2fb92d;
+    display: block;
+    line-height: 40px;
+    padding: 0 15px;
+    text-decoration: none;
+  }
+
+  
+  .dropdown-menu li a:hover {
+    background-color: #959a30;
+  }
+  
+
+
+
+
+
+
+
+  hr {
+    border: 0;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .profile img {
+    display: block; /* This is to ensure the image is centered within its container */
+    margin: 0 auto; /* This centers the image horizontally */
+    border-radius: 50%; /* This makes the image circular */
+    width: 190px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .username {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .btnm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 260px;
+    height: 60px;
+    border-radius: 7px;
+  }
+  .jobcard{
+    width :800px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   text-decoration: underline;
+    word-wrap: break-word;
+    background-color: #fff;
+    overflow-wrap: break-word;
+  }
+  .card3{
+    width: 800px;
+    height: 560px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+   background-color:gray;
+    background-position: center;
+    background-size: cover;
+}

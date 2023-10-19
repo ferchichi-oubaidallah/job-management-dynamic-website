@@ -1,0 +1,85 @@
+/* Style the form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  form h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 30px;
+  }
+  /* Style the form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="number"],
+  .form-group textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  select[multiple],
+  .form-group textarea {
+    height: 120px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the form headings */
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the form input labels */
+  .form-group label {
+    color: #666;
+  }
+  
+  /* Style the form input focus state */
+  .form-group input:focus,
+  .form-group textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+/* END HERE */
